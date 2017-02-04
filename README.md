@@ -11,6 +11,18 @@ Summary: Flake8 plugin to check for copyright notices in all python files.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flake8-copyright-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flake8-copyright-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/flake8-copyright-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flake8-copyright-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flake8-copyright-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flake8-copyright-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-copyright/badges/version.svg)](https://anaconda.org/conda-forge/flake8-copyright)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-copyright/badges/downloads.svg)](https://anaconda.org/conda-forge/flake8-copyright)
+
 Installing flake8-copyright
 ===========================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flake8-copyright-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flake8-copyright-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flake8-copyright-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flake8-copyright-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flake8-copyright-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flake8-copyright-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-copyright/badges/version.svg)](https://anaconda.org/conda-forge/flake8-copyright)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/flake8-copyright/badges/downloads.svg)](https://anaconda.org/conda-forge/flake8-copyright)
 
 
 Updating flake8-copyright-feedstock
