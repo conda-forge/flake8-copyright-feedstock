@@ -1,6 +1,6 @@
 {% set name = "flake8-copyright" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "aeef26eb4d5223c9cd5b101e68175fcef6d2b353bf36da688fdde62fccfe2b73" %}
+{% set version = "0.2.2" %}
+{% set sha256 = "5c3632dd8c586547b25fff4272282005fdbcba56eeb77b7487564aa636b6e533" %}
 
 package:
   name: {{ name|lower }}
@@ -15,7 +15,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
