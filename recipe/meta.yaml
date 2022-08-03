@@ -27,7 +27,7 @@ requirements:
 
 test:
   commands:
-    - 'flake8 --version | grep flake8_copyright:'
+    - 'flake8 --version | grep flake8-copyright:'
 
 about:
   home: https://github.com/savoirfairelinux/flake8-copyright
