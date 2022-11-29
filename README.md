@@ -3,7 +3,7 @@ About flake8-copyright
 
 Home: https://github.com/savoirfairelinux/flake8-copyright
 
-Package license: LGPL-3.0
+Package license: LGPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-copyright-feedstock/blob/main/LICENSE.txt)
 
