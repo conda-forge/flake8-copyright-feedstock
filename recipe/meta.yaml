@@ -1,5 +1,5 @@
 {% set name = "flake8-copyright" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 698840480d377e7c70172672636d898ad7b8af210492f431fff066e75b481d59
+  sha256: b78491fcf575266d7e78dcfa899c876edd1c29929d247de3408bf4e3f971bf1c
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
