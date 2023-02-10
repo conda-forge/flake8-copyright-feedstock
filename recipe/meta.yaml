@@ -23,7 +23,6 @@ requirements:
   run:
     - python >=3.6
     - setuptools
-    - flake8 <6
 
 test:
   commands:
